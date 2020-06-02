@@ -1,0 +1,70 @@
+.banner1917{
+    background: url("https://image.tmdb.org/t/p/w533_and_h300_bestv2/tJgmraUAmVlJPlq72yC76tKDyC4.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    width: 440px;
+    position: relative;
+    padding: 15px;
+}
+
+
+span{
+    font-size: 14px;
+}
+
+
+.info1917{
+    width: 100%;
+    margin: 10px;
+    margin: 0;
+
+    .tipo1917{
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 6px;
+        font-size: 14px;
+        font-weight: lighter;
+    }
+
+    .duracao1917{
+        margin: 15px;
+    }
+
+    .p1917{
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+    }
+}
+
+ion-item{
+        --padding-start: 10px ;
+    
+        &:hover{
+            --background: #ffff;        
+        }
+    }
+
+
+    ion-slides {
+        height: 35%;
+      }
+  
+      .swiper-slide {
+        display: block;
+      }
+  
+      .swiper-slide h2 {
+        margin-top: 2.8rem;
+      }
+  
+      .swiper-slide img {
+        max-height: 100%;
+        max-width: 100%;
+        margin: 15px 0 20px;
+        pointer-events: none;
+      }
+  
+     

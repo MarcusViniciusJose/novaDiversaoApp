@@ -1,0 +1,68 @@
+.bannerus{
+    background: url("https://i.ytimg.com/vi/d98KxaUYyV4/maxresdefault.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 230px;
+    width: 440px;
+    position: relative;
+    padding: 15px;
+}
+
+
+span{
+    font-size: 14px;
+}
+
+
+.infous{
+    width: 100%;
+    margin: 10px;
+    margin: 0;
+
+    .tipous{
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 6px;
+        font-size: 14px;
+        font-weight: lighter;
+    }
+
+    .duracaous{
+        margin: 15px;
+    }
+
+    .pus{
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+    }
+}
+
+ion-item{
+        --padding-start: 10px ;
+    
+        &:hover{
+            --background: #ffff;        
+        }
+    }
+
+
+    ion-slides {
+        height: 42%;
+      }
+  
+      .swiper-slide {
+        display: block;
+      }
+  
+      .swiper-slide h2 {
+        margin-top: 2.8rem;
+      }
+  
+      .swiper-slide img {
+        max-height: 100%;
+        max-width: 100%;
+        margin: 15px 0 20px;
+        pointer-events: none;
+      }

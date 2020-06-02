@@ -1,17 +1,71 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header>
+  <ion-toolbar color= "primary">
     <ion-title>
-      Tab 2
+      Series
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content color="medium">
+  <ion-card color="dark">
+    <ion-card-header routerLink="/rick-emorty">
+      <img src="https://image.tmdb.org/t/p/w533_and_h300_bestv2/erpChhl0uknAvYsEC3zq7abbXeb.jpg">
+    </ion-card-header>
+    <ion item color="dark">
+      <h1>Rick e Morty <span>(2013)</span></h1>
+    </ion>
+   
+    <ion item color="medium">
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+      <div class="info ion-text-center">
+        <span class="tipo">TV Paga</span> <span class="duracao">44 min</span>
+        <p>Animacao, Comedia, Ficcao cientifica e Fantasia</p>
+      </div>
+
+      
+    </ion>
+
+    <ion item color="dark">
+      <div>
+        <h2>Sinopse</h2>
+        <p>Rick é um velho mentalmente desequilibrado, mas cientificamente talentoso que se reconectou recentemente 
+          com sua família. Ele passa a maior parte do tempo envolvendo o jovem neto Morty em aventuras perigosas e estranhas no espaço e em universos alternativos. 
+          Compostos à vida familiar já instável de Morty, esses eventos causam muito sofrimento a Morty em casa e na escola.</p>
+      </div>
+
+      
+    </ion>   
+  </ion-card>
+
+  <ion-card color="dark">
+    <ion-card-header routerLink="/ponto-cego">
+      <img src="https://image.tmdb.org/t/p/w533_and_h300_bestv2/dYJrfkQeqGXeGMMTvYaM43XHce5.jpg">
+    </ion-card-header>
+    <ion item color="dark">
+      <h1>Ponto Cego <span>(2015)</span></h1>
+    </ion>
+   
+    <ion item color="medium">
+
+      <div class="info ion-text-center">
+        <span class="tipo">TV Paga</span> <span class="duracao">43 min</span>
+        <p>Ação, Crime e Drama</p>
+      </div>
+
+      
+    </ion>
+
+    <ion item color="dark">
+      <div>
+        <h2>Sinopse</h2>
+        <p>Blindspot conta a história de um agente do FBI que, misteriosamente, se vê em meio a uma conspiração. 
+          A história começa quando Jane Doe (Jaimie Alexander), completamente sem memória, é encontrada nua no meio da Times Square, em Nova York, com o corpo coberto de tatuagens recentes. 
+          E uma dessas tatuagens é o nome do agente do FBI Kurt Weller (Sullivan Stapleton). 
+          Agora, ele terá que desvendar os mistérios: Quem é esta mulher e o que significam suas tatuagens?</p>
+      </div>
+
+      
+    </ion>   
+  </ion-card>
+
 </ion-content>
